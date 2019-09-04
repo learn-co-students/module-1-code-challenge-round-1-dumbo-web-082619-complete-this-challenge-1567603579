@@ -38,5 +38,6 @@ class Restaurant
     total.to_f/review_arr.size
   end
 
-  
+  def   
+
 end

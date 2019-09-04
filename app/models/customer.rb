@@ -36,5 +36,13 @@ class Customer
     end.uniq
   end 
 
+  def self.all_names
+    self.all.map do |instance|
+      instance.full_name
+    end
+  end
+
+  def self.find_all_by_first_names(first_name)
+    
 
  end
