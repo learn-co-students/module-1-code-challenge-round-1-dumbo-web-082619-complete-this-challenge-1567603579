@@ -10,8 +10,8 @@ end
 rest1 = Restaurant.new("New Moon Restaurant")
 rest2 = Restaurant.new("Big Sun Restaurant")
 rest3 = Restaurant.new("Top Restaurant")
-# rest4 = Restaurant.new("Restaurant4")
-# rest5 = Restaurant.new("Restaurant5")
+# rest4 = Restaurant.new("Ghostly Restaurant")
+# rest5 = Restaurant.new("Fishy Restaurant")
 
 cust1 = Customer.new("Benny", "Louie")
 cust2 = Customer.new("Kenneth", "Louie")
