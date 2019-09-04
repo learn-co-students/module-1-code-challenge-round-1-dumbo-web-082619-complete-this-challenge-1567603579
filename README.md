@@ -27,28 +27,28 @@ We've provided you with a console that you can use to test your code. To enter a
 
 ### Basic methods
 
-- `Customer.all`
-  - should return **all** of the customer instances
-- `Restaurant.all`
+<!-- - `Customer.all`
+  - should return **all** of the customer instances -->
+<!-- - `Restaurant.all`
   - returns an array of all restaurants
-- `Review.all`
-  - returns all of the reviews
+- `Review.all` -->
+  <!-- - returns all of the reviews -->
   
 ### Associations and Aggregate Methods
 
 #### Customer
 
-- `Customer#add_review(restaurant, content, rating)`
-  - given a **restaurant object**, some review content (as a string), and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
-- `Customer#num_reviews`
+<!-- - `Customer#add_review(restaurant, content, rating)`
+  - given a **restaurant object**, some review content (as a string), and a star rating (as an integer), creates a new review and associates it with that customer and restaurant. -->
+<!-- - `Customer#num_reviews`
   - Returns the total number of reviews that a customer has authored
 - `Customer#restaurants`
   - Returns a **unique** array of all restaurants a customer has reviewed
 
-#### Restaurant
+#### Restaurant -->
 
-- `Restaurant#customers`
-  - Returns a **unique** list of all customers who have reviewed a particular restaurant.
+<!-- - `Restaurant#customers`
+  - Returns a **unique** list of all customers who have reviewed a particular restaurant. -->
 - `Restaurant#reviews`
   - returns an array of all reviews for that restaurant
 - `Restaurant#average_star_rating`
@@ -64,8 +64,8 @@ We've provided you with a console that you can use to test your code. To enter a
   - given a string of a **full name**, returns the **first customer** whose full name matches
 - `Customer.find_all_by_first_name(name)`
   - given a string of a first name, returns an **array** containing all customers with that first name
-- `Customer.all_names`
-  - should return an **array** of all of the customer full names
+<!-- - `Customer.all_names`
+  - should return an **array** of all of the customer full names -->
 
 #### Build out the following method on the `Restaurant` class
 
